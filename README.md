@@ -9,3 +9,5 @@ Ingredients:
 * rails@6.0.2.2
 
 * sqlite3@3.28.0
+
+* devise@4.7.1
