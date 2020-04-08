@@ -10,5 +10,10 @@
     <p>
         <%= link_to 'Entrar', new_user_session_path %>
     </p>
+
+    <h3>Log out</h3>
+    <p>
+        <%= button_to 'Sair', destroy_user_session_path, method: :delete %>
+    </p>
 </body>
 </html>
